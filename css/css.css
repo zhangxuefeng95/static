@@ -1,0 +1,19 @@
+body {
+    background-color: #FFFBF2;
+    background-image: url("../images/1101.gif");
+    background-repeat: repeat-x;
+    color: #2F2F2F;
+    font-family: "ËÎÌו";
+    font-size: 12px;
+}
+* {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+table{
+	border:2px solid red;
+}
+td{
+	border:1px solid blue;
+}

@@ -1,0 +1,263 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#2286c6;
+}
+
+#container {
+	position: relative;
+	margin: 0px auto 0px auto;
+	width: 780px;
+	text-align: left;
+}
+
+#banner {
+	background-color: #191970;
+	width: 780px;
+	height: 200px;
+}
+
+#nevigate {
+	margin: 0px;
+	padding: 0px;
+	width: 780px;
+	height: 30px;
+}
+
+#nevigate table{
+	border-collapse: collapse;
+	height:38px;
+	margin-top:-1px;
+}
+
+#nevigate table td{
+	text-align:center;
+	width:78px;	
+	
+	background:url(button1.jpg) no-repeat;
+	margin:0px;
+	height:30px;
+}
+
+#nevigate a:link, #globallink a:visited{
+	color:#004a87;
+	text-decoration:underline;
+
+}
+#nevigate a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+	background:url(button1_bg.jpg) no-repeat;
+	display: block;
+	font-weight: bold;
+	
+}
+#nevigate a{
+	padding:10px 0px;
+}
+
+
+#left {
+	float: left;
+	width: 200px;
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	color: #d8ecff;
+	height: 600px;
+	background-color: #FFFFFF;
+	border-top:2px solid #2286c6;
+	border-right:1px solid #2286c6;
+}
+#left .special{
+	width:198px;
+	margin-left:0px;
+	border-collapse: collapse;
+	text-align: center;
+}
+ 
+
+#left #title{
+	background: url(weather.jpg) no-repeat;
+	font-size:12px;
+	padding:10px 0px 0px 10px;
+	color:#FFFFFF;
+	margin:0px 1px 0px 0px;
+}
+
+#left table{
+	margin-left:5px;
+	margin-right:5px;
+	border-collapse: collapse;
+}
+
+#left .weacher{
+	
+	margin-top:-7px;
+	width:190px;
+}
+#left .weacher td{
+	background: url(icon1.gif) no-repeat;
+	background-position:left center;
+	background-color:#5ea6eb;
+	padding-left: 6px;
+}
+#left .today{
+	width:190px;
+	padding:0px;
+}
+#left .today td{
+	padding:0px;
+	vertical-align: center;
+}
+
+#left .today h3{
+	background: url("icon2.gif") no-repeat;
+	background-color:#BBDDFF;
+	background-position:left center;
+	margin:0px;
+	padding-left:10px;
+	font-size:15px;
+	color: #003973;
+}
+
+#left .leftpic{
+	text-align: center;
+	color:#ffffff;
+	background-color: #5ea6eb;
+	width:190px;
+	
+}
+#left .leftpic td{
+	padding-top:5px;
+}
+
+#left .today img{
+	border: 1px solid #FFFFFF;
+    margin-top:5px;
+}
+
+
+
+#middle{
+	float:left;
+	width: 400px;
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	color: #d8ecff;
+	height: 600px;
+	background-color: #FFFFFF;
+	border-top: 2px solid #2286c6;
+	border-left:1px solid #2286c6;
+}
+#middle table{
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:4px;
+	border-collapse: collapse;
+}
+
+#middle .beauty img{
+	margin:0px 5px;
+	border:1px solid #2286c6;
+}
+#middle .route{
+	color: #004E8A;
+	font-size:13px;
+}
+#middle .route td{
+	padding-left:15px;
+}
+
+
+.route a:link, #route ul li a:visited {
+    color: #004E8A;
+    text-decoration: none;
+    font-size:12px;
+}
+
+
+
+#right {
+	float:left;
+	width: 176px;
+	background-color: #FFFFFF;
+	color: #d8ecff;
+	height: 605px;
+	margin:0px 0px 1px 0px;
+	border-top:2px solid #2286c6;
+	border-left:2px solid #2286c6;
+}
+#right .title h3{
+	background: url("icon2.gif") no-repeat;
+	background-position:left center;
+	margin:0px;
+	padding-left:10px;
+	font-size:15px;
+	color: #003973;
+}
+#right .title{
+	width:172px;
+	background-color: #BBDDFF;
+}
+#right .rightpic{
+	text-align: center;
+	color:#ffffff;
+	background-color: #5ea6eb;
+	width:172px;
+	border-collapse:collapse;
+}
+#right .rightpic td{
+	padding:5px 5px 10px 5px;
+}
+#right .rightpic img{
+	border:1px solid red;
+}
+#right .content{
+	width:172px;
+	border-collapse:collapse;
+	background-color: #5ea6eb;
+	text-align: left;
+}
+#right .content td{
+	background: url(icon1.gif) no-repeat 8px 5px;
+	background-color:#5ea6eb;
+	padding-left: 20px;
+	border-bottom: 1px dashed #EEEEEE;
+	height:15px;
+	line-height:18px;
+}
+#right #space{
+	width:172px;
+	background-color: #5ea6eb;
+	height:15px;
+}
+#right a:link, #right a:visited, #right a:link, #right a:visited {
+    color: #D8ECFF;
+    text-decoration: none;
+}
+#right a:hover{
+	color:#000000;
+	text-decoration: underline;
+}
+#footer{
+	clear:both;
+	background-color:#FFFFFF;
+	margin:1px 0px 0px 0px;
+	padding:1px 0px 1px 0px;
+}
+#footer p{
+	text-align:center;
+	padding:0px;
+	margin:4px 5px 4px 5px;
+	background-color:#5ea6eb;
+}
+#footer p a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#footer p br{
+	display: block;
+}

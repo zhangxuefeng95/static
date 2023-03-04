@@ -1,0 +1,78 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;	/*内容居中*/
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#2286c6;	/*背景颜色*/
+}
+
+#container {
+	margin: 0px auto 0px auto;
+	width: 780px;	/*宽度*/
+	text-align: left;	/*内容左对齐*/
+}
+
+#banner {	/*banner图片*/
+	width: 780px;
+	height: 200px;				/*高度*/
+}
+
+#nevigate {	/*导航栏*/
+	margin: 0px;
+	padding: 0px;
+	width: 780px;	
+}
+
+#nevigate table{	/*导航栏表格*/
+	
+	height:38px;				/*高度*/
+}
+
+#nevigate table td{
+	text-align:center;
+	width:78px;	
+	background:url(button1.jpg) no-repeat;
+	margin:0px;
+}
+
+
+
+
+#left {
+	float: left;
+	width: 200px;
+	background-color: #FFA07A;
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	color: #d8ecff;
+	height: 600px;
+}
+
+#middle {
+	float: left;
+	margin: 0px 0px 0px 2px;
+	padding: 5px 0px 0px 0px;
+	width: 400px;
+	height: 600px;
+	background-color: #ffffff;
+}
+
+#right {
+	float: left;
+	margin: 0px 0px 0px 2px;
+	width: 176px;
+	background-color: #FFA07A;
+	color: #d8ecff;
+	height: 605px;
+}
+
+#footer {
+	clear: both;
+	background-color: #00ffff;
+	margin: 0px 0px 0px 2px;
+	padding: 5px 0px 0px 0px;
+	width: 780px;
+	float: left;
+	height: 30px;
+}
